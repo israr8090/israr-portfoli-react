@@ -219,6 +219,10 @@ body {
     }
 
     /* Exprience section */
+    .ex {
+        width: 90%;
+    }
+
 
     .ex-items {
         display: flex;
@@ -241,6 +245,6 @@ body {
         margin-left: -30px;
     }
 
-  
+
 
 }
