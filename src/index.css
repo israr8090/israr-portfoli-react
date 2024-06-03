@@ -1,0 +1,246 @@
+:root {
+    --box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
+    --bg-color: rgb(40, 47, 97)
+}
+
+body {
+    background-color: rgb(11, 26, 51);
+    color: white;
+}
+
+.port {
+    padding: 5px !important;
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    padding-right: 20px !important;
+    padding-left: 0px !important;
+    color: rgb(239, 230, 230) !important;
+}
+
+.nav-link {
+    padding: 5px !important;
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    color: rgb(227, 226, 226) !important;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid yellow !important;
+}
+
+
+/* Home section */
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.home .left {
+    background-color: var(--bg-color);
+    width: 620px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    box-shadow: var(--box-shadow);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .left .pdf-btn {
+    position: fixed;
+    bottom: 0;
+    margin: 10px;
+
+}
+
+.home .rigth .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home .rigth,
+.img img {
+    height: 270px;
+    width: 270px;
+    border-radius: 100%;
+    border: 5px solid yellow;
+    animation-name: heroimg;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heroimg {
+    0% {
+        border-color: blue;
+        transform: translate(0px, 0px);
+        box-shadow: 10px 10px 100px 50px blue;
+
+    }
+
+    25% {
+        border-color: rgb(239, 244, 11);
+        transform: translate(0px, 0px);
+        box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+    }
+
+    50% {
+        border-color: rgb(12, 12, 199);
+        transform: translate(0px, 10px);
+        box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
+    }
+
+    75% {
+        border-color: rgb(130, 217, 160);
+        transform: translate(0px, 0px);
+        box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+    }
+
+    100% {
+        border-color: rgb(50, 55, 205);
+        transform: translate(0px, 0px);
+        box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+    }
+}
+
+/* Exprience section */
+.ex {
+    width: 900px;
+    padding-bottom: 50px;
+}
+
+.ex-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    margin: 20px;
+    width: 800px;
+    padding: 30px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+/* Skills Sections */
+.skills {
+    width: 900px;
+}
+
+.skills .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.skills .items .item {
+    background-color: black;
+    margin: 20px;
+    text-align: center;
+    width: calc(33.33%);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    box-shadow: var(--box-shadow);
+
+}
+
+.skills .items .item img {
+    width: 70px;
+}
+
+/* Contact Section */
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.contact-icon .items {
+    background-color: black;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid yellow;
+}
+
+.contact-icon .items:hover {
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+}
+
+.contact-icon .items .icons {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+    .home {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-top: 20px;
+
+    }
+
+    .home .left {
+
+        width: 300px;
+        text-align: center;
+        padding: 20px;
+        height: 200px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .home .left .pdf-btn {
+        position: fixed;
+        bottom: 0;
+        margin: 30px;
+
+    }
+
+    /* Exprience section */
+
+    .ex-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+    }
+
+    /* Skills Sections */
+    .skills {
+        width: 420px;
+    }
+
+    .skills .items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: -30px;
+    }
+
+  
+
+}

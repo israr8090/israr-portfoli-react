@@ -1,0 +1,34 @@
+[
+  {
+    "key": 1,
+    "title": "Hotel Management Application",
+    "imageSrc": "https://res.cloudinary.com/dak8uu1ia/image/upload/v1715324978/babaroom_we7kxi.png",
+    "description": "This is a project made with complete MERN Stack.",
+    "demo": "",
+    "source": "https://github.com/israr8090/Hotel-web-app-assignment"
+  },
+  {
+    "key": 2,
+    "title": "Quiz web application",
+    "imageSrc": "https://res.cloudinary.com/dak8uu1ia/image/upload/v1715324772/projectQuizApp_biziz7.png",
+    "description": "Developed a Quiz web application, a dynamic web application using JavaScript.",
+    "demo": "https://israr-quizapp.netlify.app/",
+    "source": "https://github.com/israr8090/quizapp"
+  },
+  {
+    "key": 3,
+    "title": "Linkedin clone Web Application",
+    "imageSrc": "https://res.cloudinary.com/dak8uu1ia/image/upload/v1715325782/project2_ksvrua.png",
+    "description": "Developed an Linkedin clone app, a dynamic web application using JavaScript.",
+    "demo": "https://linkedin-clone.netlify.app/",
+    "source": "https://github.com/israr8090/testbook-assigntment"
+  },
+  {
+    "key": 4,
+    "title": "Market Place of Lzycrazy.com",
+    "imageSrc": "https://res.cloudinary.com/dak8uu1ia/image/upload/v1715326257/lzycrazy_izkumy.png",
+    "description": "This is a project made with HTML, CSS, Bootstrap and JavaScript",
+    "demo": "https://lzycrazy-market-israr.netlify.app/",
+    "source": "https://github.com/israr8090/lzycrazyMarketPlace"
+  }
+]

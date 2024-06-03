@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "role": "Frontend Developer - Freelancer",
+    "organisation": "Lzycrazy pvt ltd",
+    "startDate": "Feb 2024 – ",
+    "endDate": " Apr 2024,",
+    "location": "Noida, UP India",
+    "experiences": [
+      "Proficient in HTML, CSS, Bootstrap and JavaScript",
+      "Developed numerous responsive web pages"
+    ],
+    "imageSrc": "company/lzycrazy.png"
+  },
+  {
+    "id": 2,
+    "role": "Frontend Developer - Internship",
+    "organisation": "Bharat Intern",
+    "startDate": "Jan 2024 – ",
+    "endDate": "Feb 2024,",
+    "location": "Remote",
+    "experiences": [
+      "Developed a weather web application",
+      "Making responsive behavior using HTML, CSS & JavaScript"
+    ],
+    "imageSrc": "company/bhartintern.png"
+  },
+  {
+    "id": 3,
+    "role": "Frontend Developer - Internship",
+    "organisation": "TechnoHacks EduTech",
+    "startDate": "Nov 2023 - ",
+    "endDate": "Dec 2023,",
+    "location": "Remote",
+    "experiences": [
+      "Worked on Nextflix payment system",
+      "Helped to create UI for video player"
+    ],
+    "imageSrc": "company/technoHacks.png"
+  },
+  {
+    "id": 4,
+    "role": "Frontend Developer - Internship",
+    "organisation": "Infotrixs",
+    "startDate": "Oct 2023 - ",
+    "endDate": "Oct 2023,",
+    "location": "Remote",
+    "experiences": [
+      "Designed and built a responsive LinkedIn Clone website",
+      "Used HTML, CSS, and JavaScript",
+      "Collaborated with a team to learn for best practices"
+    ],
+    "imageSrc": "company/infotrixs.png"
+  },
+  {
+    "id": 5,
+    "role": "M. Supervisor manager & Fiber Engineer",
+    "organisation": "Reliance Jio Infocomm Ltd",
+    "startDate": "Feb 2021 -  ",
+    "endDate": "Jun 2023,",
+    "location": "Sultanpur UP India",
+    "experiences": [
+      "Worked as Team planning, Field coordination, Survey submission",
+      "Installation and service of broadband connections to customer end",
+      "Worked as managing team members"
+    ],
+    "imageSrc": "company/jiofiber.png"
+  },
+  {
+    "id": 6,
+    "role": "Sr. BMS Operator",
+    "organisation": "Xe-cute HR Solution Pvt Ltd",
+    "startDate": "Jan 2017 - ",
+    "endDate": "Oct 2018,",
+    "location": "New Delhi India",
+    "experiences": [
+      "Worked as provide overall Management and control by Developing, Implementing and Administering a System to Ensure efficient and effective delivery of facilities for service support"
+      ]
+  }
+]
